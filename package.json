@@ -1,0 +1,23 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing personal tasks and to-do lists. Users can create, organize, and track their daily tasks with categories, priorities, and deadlines. This project demonstrates core CRUD operations, authentication, and data relationships.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anoop-Rajoriya/task-management-api.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Anoop Rajoriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anoop-Rajoriya/task-management-api/issues"
+  },
+  "homepage": "https://github.com/Anoop-Rajoriya/task-management-api#readme"
+}
