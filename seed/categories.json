@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Work",
+    "color": "#FF5733"
+  },
+  {
+    "name": "Personal",
+    "color": "#33B5FF"
+  },
+  {
+    "name": "Fitness",
+    "color": "#33FF99"
+  },
+  {
+    "name": "Hobby Projects",
+    "color": "#A133FF"
+  }
+]
