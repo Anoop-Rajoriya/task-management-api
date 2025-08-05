@@ -4,34 +4,39 @@
     "description": "Finish the weekly status report for the client.",
     "priority": "high",
     "status": "pending",
-    "dueDate": "2025-08-05T17:00:00Z"
+    "dueDate": "2025-08-05T17:00:00Z",
+    "categoryId": "c1"
   },
   {
     "title": "Call plumber",
     "description": "Fix the kitchen sink leakage.",
     "priority": "medium",
     "status": "completed",
-    "dueDate": "2025-08-01T12:00:00Z"
+    "dueDate": "2025-08-01T12:00:00Z",
+    "categoryId": "c2"
   },
   {
     "title": "Morning run",
     "description": "Jog 3km around the park.",
     "priority": "low",
     "status": "pending",
-    "dueDate": "2025-08-03T06:30:00Z"
+    "dueDate": "2025-08-03T06:30:00Z",
+    "categoryId": "c3"
   },
   {
     "title": "Update portfolio website",
     "description": "Add the new projects and update contact form.",
     "priority": "medium",
     "status": "in-progress",
-    "dueDate": "2025-08-07T23:59:00Z"
+    "dueDate": "2025-08-07T23:59:00Z",
+    "categoryId": "c4"
   },
   {
     "title": "Read Node.js design patterns",
     "description": "Chapter 4 and 5 before weekend.",
     "priority": "high",
     "status": "pending",
-    "dueDate": "2025-08-03T21:00:00Z"
+    "dueDate": "2025-08-03T21:00:00Z",
+    "categoryId": "c4"
   }
 ]

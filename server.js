@@ -9,10 +9,14 @@ server.use(express.urlencoded({ extended: true }));
 // Api routes
 const tasksRouter = require("./routes/tasks");
 const categoriesRouter = require("./routes/categories");
+const seedData = require("./controllers/seedData");
 const errorHandler = require("./middleware/errorHandler");
 
 server.use("/api/tasks", tasksRouter);
 server.use("/api/categories", categoriesRouter);
+
+server.get("/api/seed", seedData);
+
 server.use(errorHandler);
 
 const PORT = process.env.PORT;
