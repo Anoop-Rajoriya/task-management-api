@@ -12,12 +12,12 @@ const categoriesRouter = require("./routes/categories");
 const seedData = require("./controllers/seedData");
 const errorHandler = require("./middleware/errorHandler");
 
-server.use("/api/tasks", tasksRouter);
-server.use("/api/categories", categoriesRouter);
+server.use("/api/tasks", tasksRouter); // Task Api
+server.use("/api/categories", categoriesRouter); // Category Api
 
-server.get("/api/seed", seedData);
+server.get("/api/seed", seedData); // Seed dummy data
 
-server.use(errorHandler);
+server.use(errorHandler); // Error handler
 
 const PORT = process.env.PORT;
 server.listen(PORT, () => {
