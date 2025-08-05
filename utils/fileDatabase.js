@@ -95,4 +95,5 @@ module.exports = {
   readObjs,
   updateObj,
   deleteObj,
+  addBulk,
 };
