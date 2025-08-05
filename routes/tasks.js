@@ -6,6 +6,7 @@ const {
   updateTask,
   deleteTask,
   updateTaskStatus,
+  addTaskCategory
 } = require("../controllers/tasks");
 
 // GET: Get all user tasks.
@@ -19,5 +20,8 @@ router.route("/:id").get(getTask).put(updateTask).delete(deleteTask);
 
 // PATCH: Update taks status.
 router.route("/:id/status").patch(updateTaskStatus);
+
+// PATCH: Add taks category.
+router.route("/:id/category").patch(addTaskCategory);
 
 module.exports = router;

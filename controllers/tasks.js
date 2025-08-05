@@ -128,6 +128,22 @@ const updateTaskStatus = asyncHandler(async (req, res) => {
     .status(200)
     .json(new ApiResponse(200, "Task status updated.", updatedTask));
 });
+const addTaskCategory = asyncHandler(async (req, res) => {
+  const id = req.params?.id;
+  const { categoryId } = req.body || {};
+
+  const categories = await readObj("categories", categoryId);
+
+  if (!categories) throw new ApiError(400, "Invalid category id.");
+
+  const updatedTask = await updateObj("tasks", id, { categoryId });
+
+  if (!updateTask) throw new ApiError(500, "Failed to update task category.");
+
+  res
+    .status(200)
+    .json(new ApiResponse(200, "Task category updated.", updateTask));
+});
 
 module.exports = {
   getTask,
@@ -136,4 +152,5 @@ module.exports = {
   updateTask,
   deleteTask,
   updateTaskStatus,
+  addTaskCategory,
 };
