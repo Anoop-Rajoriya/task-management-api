@@ -39,7 +39,7 @@ const createTask = asyncHandler(async (req, res) => {
   });
 
   if (!createdTask) {
-    throw new ApiError(400, "Failed to write DB.");
+    throw new ApiError(400, "Failed to create task.");
   }
 
   return res
