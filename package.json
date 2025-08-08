@@ -1,5 +1,5 @@
 {
-  "name": "task-management-api",
+  "name": "simple-todo-api",
   "version": "1.0.0",
   "description": "A RESTful API for managing personal tasks and to-do lists. Users can create, organize, and track their daily tasks with categories, priorities, and deadlines. This project demonstrates core CRUD operations, authentication, and data relationships.",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anoop-Rajoriya/task-management-api.git"
+    "url": "git+https://github.com/Anoop-Rajoriya/simple-todo-api.git"
   },
   "keywords": [
     "Node.js",
@@ -18,9 +18,9 @@
   "author": "Anoop Rajoriya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Anoop-Rajoriya/task-management-api/issues"
+    "url": "https://github.com/Anoop-Rajoriya/simple-todo-api/issues"
   },
-  "homepage": "https://github.com/Anoop-Rajoriya/task-management-api#readme",
+  "homepage": "https://github.com/Anoop-Rajoriya/simple-todo-api#readme",
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
